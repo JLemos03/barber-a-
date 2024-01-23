@@ -13,6 +13,7 @@ p{
 .principal{
     background-color: #cccccc;
     padding: 20px;
+    width: 100%;
 }
 
 #banner{
@@ -31,7 +32,7 @@ em strong {
 .diferenciales{
     background-color: aliceblue;
     width: 100%;
-    padding: 30px;
+    padding: 20px;
 }
 
 h2, h3{
