@@ -3,46 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barberia JL</title>
-    <link rel="stylesheet" href="style.css">
+    <title>JL Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 
 </head>
 <body>
+    <div class="wrapper">
 
+        <aside>
+            <header>
+                <h1 class="logo">JLShop</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li> <button id="todos" class="boton-menu boton-categoria active"> <i class="bi bi-hand-index-thumb-fill"></i>productos</button></li>
+                    <li> <button id="abrigos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>abri</button></li>
+                    <li> <button id="camisetas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>cam</button></li>
+                    <li> <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>pant</button></li>
+                    <li> <a class="boton-menu boton-carrito" href="./carrito.html"><i class="bi bi-cart-fill"></i>
+                        Carrito <span class="numerito">0</span></a></li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">
+                    JL 
+                </p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
 
-    <div>
-        <header class="tituloP">
-            <h1>
+            </div>
+        </main>
 
-                Barberia JL
-            </h1>
-                
-        </header>
     </div>
 
-    <div class="principal">
-        <img id="banner" src="banner.jpg" alt="">
-        <h2>
-            Sobre la Barbería Alura
-        </h2>
-        
-        <p  >Ubicada en el corazón de la ciudad, la <strong> Barbería Alura </strong>trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.
-        </p> 
-        <p id="mision"> <em>Nuestra misión es:<strong> "Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em>
-        </p>
-        <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.
-        </p> 
-    </div>
-
-    <div class="diferenciales">
-        <h3>Diferenciales</h3>
-        <ul>
-            <li class="items">Atencion personalizada</li>
-            <li class="items">Espacio Diferenciales</li>
-            <li class="items">Localizacion </li>
-            <li class="items">Profercionales Calificados</li>
-        </ul>
-        <img class="diferenciales-img" src="diferenciales.jpg" alt="">
-    </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
